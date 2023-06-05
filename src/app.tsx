@@ -9,7 +9,7 @@ const store = {
   counterStore
 }
 
-class App extends Component<PropsWithChildren> {
+class App extends Component<PropsWithChildren<{}>> {
   componentDidMount () {}
 
   componentDidShow () {}
